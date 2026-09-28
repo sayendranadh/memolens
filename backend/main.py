@@ -62,7 +62,14 @@ def root() -> dict[str, Any]:
 
 @app.get("/health")
 def health() -> dict[str, Any]:
-    return {"ok": True, "memory": memory.stats()}
+    """Fast, side-effect-free health check. Never calls external services —
+    HF Spaces' proxy has a short timeout and a slow health check shows up
+    as a 502."""
+    return {
+        "ok": True,
+        "bank_id": memory.BANK_ID,
+        "memory_enabled": memory.MEMORY_ENABLED,
+    }
 
 
 @app.post("/analyze", response_model=AnalysisResult)

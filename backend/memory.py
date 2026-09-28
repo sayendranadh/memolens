@@ -84,7 +84,7 @@ _worker_loop: asyncio.AbstractEventLoop | None = None
 _worker_thread: threading.Thread | None = None
 _worker_client = None
 _worker_lock = threading.Lock()
-_WORKER_TIMEOUT = 180.0
+_WORKER_TIMEOUT = 25.0
 
 
 def _start_worker() -> None:
