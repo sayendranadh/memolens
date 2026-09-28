@@ -60,8 +60,8 @@ def root() -> dict[str, Any]:
     }
 
 
-@app.get("/status")
-def status() -> dict[str, Any]:
+@app.get("/healthz")
+def healthz() -> dict[str, Any]:
     """Fast, side-effect-free health check. Never calls external services —
     HF Spaces' proxy has a short timeout and a slow health check shows up
     as a 502."""
