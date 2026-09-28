@@ -1,3 +1,15 @@
+---
+title: MemoLens
+emoji: 🧠
+colorFrom: indigo
+colorTo: yellow
+sdk: docker
+app_port: 7860
+pinned: false
+license: mit
+short_description: Feedback synthesizer with Hindsight memory
+---
+
 # MemoLens
 
 A feedback synthesizer that gets measurably better at its job the longer
