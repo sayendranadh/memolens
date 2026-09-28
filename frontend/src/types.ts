@@ -6,7 +6,7 @@ export type Theme = {
 export type Recommendation = {
   id: string; title: string; action: string; rationale: string;
   evidence: string[]; score: number; score_breakdown: Record<string, number>;
-  source_theme_id: string; memory_citations: string[];
+  source_theme_id: string; theme_key: string; memory_citations: string[];
 };
 export type Brief = {
   batch: number; date: string; summary: string; recommendations: Recommendation[];
