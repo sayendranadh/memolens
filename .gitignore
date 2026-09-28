@@ -1,0 +1,34 @@
+# secrets
+.env
+.env.local
+*.key
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.memo/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# regenerable
+data/llm_cache/
+data/memory_log.jsonl
+eval/results/
+
+# keep these
+!data/batch_*.json
+!eval/golden_labels.json
+!data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

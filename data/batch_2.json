@@ -1,0 +1,1605 @@
+[
+  {
+    "id": "b2-r001",
+    "text": "Please \u2014 Would switch to paid if the price was reasonable. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-03",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r002",
+    "text": "Would switch to paid if the price was reasonable.",
+    "rating": 1,
+    "date": "2026-09-05",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r003",
+    "text": "Why does it take 10+ minutes for changes to sync across devices? Would appreciate it.",
+    "rating": 1,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r004",
+    "text": "Seriously, Not worth the monthly fee compared to competitors. Please fix.",
+    "rating": 4,
+    "date": "2026-09-06",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r005",
+    "text": "Raised prices again? Time to look at alternatives. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r006",
+    "text": "Would switch to paid if the price was reasonable. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-08-31",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r007",
+    "text": "Why does it take 10+ minutes for changes to sync across devices? Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r008",
+    "text": "Dark mode is the one thing missing for me. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-09-03",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r009",
+    "text": "Onboarding didn't mention the keyboard shortcuts.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b2-r010",
+    "text": "Cross-device sync has been unreliable for weeks now.",
+    "rating": 1,
+    "date": "2026-09-01",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r011",
+    "text": "Seriously, Not worth the monthly fee compared to competitors.",
+    "rating": 1,
+    "date": "2026-09-05",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r012",
+    "text": "Honestly, Cost keeps going up with no new features that matter.",
+    "rating": 1,
+    "date": "2026-09-03",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r013",
+    "text": "Please \u2014 Can't justify the subscription price when free options exist. Thanks.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r014",
+    "text": "Can't justify the subscription price when free options exist.",
+    "rating": 2,
+    "date": "2026-09-03",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r015",
+    "text": "Onboarding is confusing \u2014 I didn't know where to start.",
+    "rating": 4,
+    "date": "2026-09-03",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b2-r016",
+    "text": "Would switch to paid if the price was reasonable.",
+    "rating": 1,
+    "date": "2026-09-03",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r017",
+    "text": "Sync doesn't work on Android. Works fine on iOS. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-03",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r018",
+    "text": "Sync delay is killing my workflow. I switch between 3 devices daily. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r019",
+    "text": "Please \u2014 Data conflict warnings every time I switch devices. Unacceptable. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r020",
+    "text": "Seriously, Sync failed silently and I didn't notice until days later. Please fix.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r021",
+    "text": "The mobile and desktop apps are completely out of sync. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-03",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r022",
+    "text": "Please \u2014 Cross-device sync has been unreliable for weeks now.",
+    "rating": 1,
+    "date": "2026-08-31",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r023",
+    "text": "Would switch to paid if the price was reasonable. Would appreciate it.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r024",
+    "text": "The mobile and desktop apps are completely out of sync.",
+    "rating": 3,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r025",
+    "text": "Every time I open on a second device I see the wrong state. Thanks.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r026",
+    "text": "App takes forever to launch. I've started using alternatives. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r027",
+    "text": "FYI: Android version lags behind the web app. Please fix.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b2-r028",
+    "text": "Sync failed silently and I didn't notice until days later. Thanks.",
+    "rating": 1,
+    "date": "2026-09-05",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r029",
+    "text": "Why does it take 10+ minutes for changes to sync across devices?",
+    "rating": 3,
+    "date": "2026-08-31",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r030",
+    "text": "Missing the reminder feature that worked in the old version. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b2-r031",
+    "text": "FYI: Would love full-text search across notes and tasks.",
+    "rating": 2,
+    "date": "2026-09-05",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b2-r032",
+    "text": "Can't justify the subscription price when free options exist. Please fix.",
+    "rating": 4,
+    "date": "2026-09-04",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r033",
+    "text": "Team plan pricing is absurd for a small team. Please fix.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r034",
+    "text": "FYI: Would love a faster launch. Currently unusable in a hurry. Thanks.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r035",
+    "text": "Seriously, Multiple sync conflicts this week. No clean way to resolve them. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r036",
+    "text": "Every time I open on a second device I see the wrong state.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r037",
+    "text": "Please \u2014 Would pay extra for a proper dark mode.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r038",
+    "text": "Honestly, Dark theme would make this nicer for evening use.",
+    "rating": 5,
+    "date": "2026-09-03",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r039",
+    "text": "Too expensive. I'd rather pay once than subscribe. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-02",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r040",
+    "text": "Honestly, Notifications are unreliable. I miss reminders constantly. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b2-r041",
+    "text": "Honestly, Sync delay is killing my workflow. I switch between 3 devices daily. Would appreciate it.",
+    "rating": 1,
+    "date": "2026-09-05",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r042",
+    "text": "Mobile font size is too small for my eyes.",
+    "rating": 3,
+    "date": "2026-09-04",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b2-r043",
+    "text": "Sync is broken. Changes on one device don't show up on another. Thanks.",
+    "rating": 1,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r044",
+    "text": "Seriously, Slow launch times make me reach for a notes app instead. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r045",
+    "text": "Dark mode request \u2014 I use this app at night a lot. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-06",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r046",
+    "text": "Would pay extra for a proper dark mode. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-09-02",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r047",
+    "text": "Missing the reminder feature that worked in the old version. Please fix.",
+    "rating": 2,
+    "date": "2026-09-03",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b2-r048",
+    "text": "FYI: Loading screen is up for ages every single time. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-06",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r049",
+    "text": "Honestly, Just lost a whole project because sync overwrote my desktop edits.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r050",
+    "text": "Seriously, Would love a faster launch. Currently unusable in a hurry.",
+    "rating": 4,
+    "date": "2026-08-31",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r051",
+    "text": "Data conflict warnings every time I switch devices. Unacceptable. Please fix.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r052",
+    "text": "Please \u2014 Android version lags behind the web app. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-04",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b2-r053",
+    "text": "Just lost a whole project because sync overwrote my desktop edits. Thanks.",
+    "rating": 1,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r054",
+    "text": "Please \u2014 Sync is broken. Changes on one device don't show up on another.",
+    "rating": 1,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r055",
+    "text": "Would love more granular notification controls. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b2-r056",
+    "text": "Startup performance has gotten worse, not better. Would appreciate it.",
+    "rating": 2,
+    "date": "2026-09-05",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r057",
+    "text": "Onboarding didn't mention the keyboard shortcuts. Just a heads up.",
+    "rating": 4,
+    "date": "2026-09-04",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b2-r058",
+    "text": "Sync is broken. Changes on one device don't show up on another. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-05",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r059",
+    "text": "Sharing permissions are confusing.",
+    "rating": 4,
+    "date": "2026-09-05",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b2-r060",
+    "text": "Dark mode request \u2014 I use this app at night a lot. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-09-05",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r061",
+    "text": "FYI: Sync doesn't work on Android. Works fine on iOS. Thanks.",
+    "rating": 3,
+    "date": "2026-09-01",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r062",
+    "text": "The mobile and desktop apps are completely out of sync. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r063",
+    "text": "Seriously, Add dark mode please. My only real complaint.",
+    "rating": 5,
+    "date": "2026-09-02",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r064",
+    "text": "FYI: The app hangs for 10+ seconds on open since v2.2. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-05",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r065",
+    "text": "Seriously, Cost keeps going up with no new features that matter. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-02",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r066",
+    "text": "Why does it take 10+ minutes for changes to sync across devices? Thanks.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r067",
+    "text": "Sync failed silently and I didn't notice until days later. Considering switching.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r068",
+    "text": "Please \u2014 Not worth the monthly fee compared to competitors. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r069",
+    "text": "Please \u2014 Search is case-sensitive for some reason. Just a heads up.",
+    "rating": 4,
+    "date": "2026-09-04",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b2-r070",
+    "text": "Missing the reminder feature that worked in the old version. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-01",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b2-r071",
+    "text": "Please \u2014 The bright white UI is hard on the eyes. Dark mode would help.",
+    "rating": 3,
+    "date": "2026-08-31",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r072",
+    "text": "Seriously, Loading screen is up for ages every single time. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-06",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r073",
+    "text": "The mobile and desktop apps are completely out of sync. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r074",
+    "text": "Would switch to paid if the price was reasonable.",
+    "rating": 4,
+    "date": "2026-09-06",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r075",
+    "text": "Mobile font size is too small for my eyes. Considering switching.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b2-r076",
+    "text": "FYI: Cold start is over 20 seconds on my phone.",
+    "rating": 2,
+    "date": "2026-09-05",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r077",
+    "text": "Missing the reminder feature that worked in the old version. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b2-r078",
+    "text": "Why is startup so slow? A simple app should open instantly.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r079",
+    "text": "Cost keeps going up with no new features that matter. Please fix.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r080",
+    "text": "Honestly, Slow launch times make me reach for a notes app instead. Please fix.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r081",
+    "text": "Seriously, Cost keeps going up with no new features that matter. Considering switching.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r082",
+    "text": "Sync failed silently and I didn't notice until days later. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r083",
+    "text": "Seriously, Can't justify the subscription price when free options exist. Thanks.",
+    "rating": 4,
+    "date": "2026-09-03",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r084",
+    "text": "FYI: Please add a night mode / dark theme option. Considering switching.",
+    "rating": 5,
+    "date": "2026-08-31",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r085",
+    "text": "Please \u2014 Android version lags behind the web app.",
+    "rating": 3,
+    "date": "2026-09-01",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b2-r086",
+    "text": "Would switch to paid if the price was reasonable. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-01",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r087",
+    "text": "FYI: Way too expensive for what it does. $15/mo is a lot for a to-do app. Thanks.",
+    "rating": 3,
+    "date": "2026-09-06",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r088",
+    "text": "Sync is broken. Changes on one device don't show up on another. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r089",
+    "text": "Would pay extra for a proper dark mode. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-04",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r090",
+    "text": "Sharing a task with someone outside the team is clunky. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b2-r091",
+    "text": "Honestly, Sync doesn't work on Android. Works fine on iOS. Please fix.",
+    "rating": 1,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r092",
+    "text": "Honestly, Why does it take 10+ minutes for changes to sync across devices? Would appreciate it.",
+    "rating": 2,
+    "date": "2026-09-03",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r093",
+    "text": "Please add a dark mode. The white background kills my eyes at night. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-02",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r094",
+    "text": "FYI: Free tier is too limited and paid is too expensive. Thanks.",
+    "rating": 2,
+    "date": "2026-09-05",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r095",
+    "text": "Would love a faster launch. Currently unusable in a hurry. Thanks.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r096",
+    "text": "Every time I open on a second device I see the wrong state. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r097",
+    "text": "Multiple sync conflicts this week. No clean way to resolve them.",
+    "rating": 1,
+    "date": "2026-09-03",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r098",
+    "text": "My notes don't sync between devices. I have to re-enter everything manually. Thanks.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r099",
+    "text": "The bright white UI is hard on the eyes. Dark mode would help. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-02",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r100",
+    "text": "Honestly, Please add a night mode / dark theme option. Just a heads up.",
+    "rating": 5,
+    "date": "2026-08-31",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r101",
+    "text": "Seriously, Would love a faster launch. Currently unusable in a hurry. Just a heads up.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r102",
+    "text": "Please \u2014 Startup is painfully slow since the last update. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r103",
+    "text": "Dark mode is the one thing missing for me.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r104",
+    "text": "Please \u2014 Cross-device sync has been unreliable for weeks now. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r105",
+    "text": "Raised prices again? Time to look at alternatives.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r106",
+    "text": "FYI: Please add a night mode / dark theme option.",
+    "rating": 4,
+    "date": "2026-09-02",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r107",
+    "text": "Getting 'sync failed' errors constantly. Can't rely on this for work.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r108",
+    "text": "Please \u2014 Give me sample projects when I sign up.",
+    "rating": 4,
+    "date": "2026-09-06",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b2-r109",
+    "text": "FYI: Feature request: dark mode. Everything else is great. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-09-06",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r110",
+    "text": "Honestly, Sync delay is killing my workflow. I switch between 3 devices daily. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r111",
+    "text": "Sync doesn't work on Android. Works fine on iOS. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r112",
+    "text": "FYI: Why is startup so slow? A simple app should open instantly. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-05",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r113",
+    "text": "Seriously, Sync failed silently and I didn't notice until days later. Would appreciate it.",
+    "rating": 1,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r114",
+    "text": "Dark mode request \u2014 I use this app at night a lot. Considering switching.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r115",
+    "text": "Seriously, Free tier is too limited and paid is too expensive.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r116",
+    "text": "The paid tier feels overpriced for personal use.",
+    "rating": 4,
+    "date": "2026-09-01",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r117",
+    "text": "Sync failed silently and I didn't notice until days later. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r118",
+    "text": "App takes forever to launch. I've started using alternatives. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r119",
+    "text": "Would switch to paid if the price was reasonable.",
+    "rating": 4,
+    "date": "2026-09-06",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r120",
+    "text": "Seriously, Every time I open on a second device I see the wrong state. Thanks.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r121",
+    "text": "Please \u2014 Team plan pricing is absurd for a small team. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-04",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r122",
+    "text": "Would love a faster launch. Currently unusable in a hurry. Considering switching.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r123",
+    "text": "Why does it take 10+ minutes for changes to sync across devices? Considering switching.",
+    "rating": 1,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r124",
+    "text": "Seriously, Filtering by tag in search would help a lot. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b2-r125",
+    "text": "Just lost a whole project because sync overwrote my desktop edits.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r126",
+    "text": "Please \u2014 Mobile font size is too small for my eyes.",
+    "rating": 3,
+    "date": "2026-09-01",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b2-r127",
+    "text": "Would love a faster launch. Currently unusable in a hurry. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-01",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r128",
+    "text": "Cross-device sync has been unreliable for weeks now. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r129",
+    "text": "Raised prices again? Time to look at alternatives. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-03",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r130",
+    "text": "Too expensive. I'd rather pay once than subscribe.",
+    "rating": 3,
+    "date": "2026-09-06",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r131",
+    "text": "Just lost a whole project because sync overwrote my desktop edits.",
+    "rating": 1,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r132",
+    "text": "The bright white UI is hard on the eyes. Dark mode would help.",
+    "rating": 4,
+    "date": "2026-09-05",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r133",
+    "text": "Pricing is out of touch. I use 10% of the paid features. Thanks.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r134",
+    "text": "Seriously, Cancelled my subscription. Price doesn't match the value. Please fix.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r135",
+    "text": "Notifications are too aggressive on shared tasks. Thanks.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b2-r136",
+    "text": "Cross-device sync has been unreliable for weeks now.",
+    "rating": 1,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r137",
+    "text": "Cancelled my subscription. Price doesn't match the value. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-02",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r138",
+    "text": "Seriously, Can't justify the subscription price when free options exist.",
+    "rating": 1,
+    "date": "2026-09-02",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r139",
+    "text": "Honestly, Cost keeps going up with no new features that matter.",
+    "rating": 4,
+    "date": "2026-08-31",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r140",
+    "text": "Add dark mode please. My only real complaint.",
+    "rating": 3,
+    "date": "2026-09-01",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r141",
+    "text": "Please \u2014 Cross-device sync has been unreliable for weeks now. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-03",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r142",
+    "text": "Seriously, Real-time co-editing is missing. Please fix.",
+    "rating": 4,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b2-r143",
+    "text": "The mobile UI is cramped on smaller phones. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-04",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b2-r144",
+    "text": "Seriously, Add dark mode please. My only real complaint. Please fix.",
+    "rating": 4,
+    "date": "2026-09-05",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r145",
+    "text": "Seriously, Mobile keyboard covers the input field.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b2-r146",
+    "text": "Cost keeps going up with no new features that matter.",
+    "rating": 2,
+    "date": "2026-09-02",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r147",
+    "text": "Search is slow with a large task list. Thanks.",
+    "rating": 3,
+    "date": "2026-08-31",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b2-r148",
+    "text": "Honestly, Cross-device sync has been unreliable for weeks now.",
+    "rating": 1,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r149",
+    "text": "Just lost a whole project because sync overwrote my desktop edits. Would appreciate it.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r150",
+    "text": "Getting 'sync failed' errors constantly. Can't rely on this for work. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r151",
+    "text": "Free tier is too limited and paid is too expensive. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-09-06",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r152",
+    "text": "FYI: Search results are outdated by a day or so.",
+    "rating": 2,
+    "date": "2026-09-01",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b2-r153",
+    "text": "Multiple sync conflicts this week. No clean way to resolve them. Please fix.",
+    "rating": 2,
+    "date": "2026-09-01",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r154",
+    "text": "Seriously, Push notifications arrive late on iOS.",
+    "rating": 2,
+    "date": "2026-09-05",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b2-r155",
+    "text": "Please \u2014 The paid tier feels overpriced for personal use.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r156",
+    "text": "Sync doesn't work on Android. Works fine on iOS.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r157",
+    "text": "Seriously, Way too expensive for what it does. $15/mo is a lot for a to-do app.",
+    "rating": 2,
+    "date": "2026-09-01",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r158",
+    "text": "Seriously, Startup is painfully slow since the last update. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r159",
+    "text": "Would love a faster launch. Currently unusable in a hurry.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r160",
+    "text": "Why does it take 10+ minutes for changes to sync across devices? Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r161",
+    "text": "Just lost a whole project because sync overwrote my desktop edits. Just a heads up.",
+    "rating": 1,
+    "date": "2026-08-31",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r162",
+    "text": "The paid tier feels overpriced for personal use.",
+    "rating": 4,
+    "date": "2026-09-02",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r163",
+    "text": "Not worth the monthly fee compared to competitors.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r164",
+    "text": "Honestly, The mobile and desktop apps are completely out of sync.",
+    "rating": 2,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r165",
+    "text": "Please \u2014 Multiple sync conflicts this week. No clean way to resolve them. Please fix.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r166",
+    "text": "Cost keeps going up with no new features that matter. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r167",
+    "text": "Onboarding didn't mention the keyboard shortcuts. Please fix.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b2-r168",
+    "text": "Honestly, Every time I open on a second device I see the wrong state. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r169",
+    "text": "Cross-device sync has been unreliable for weeks now.",
+    "rating": 3,
+    "date": "2026-09-01",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r170",
+    "text": "Honestly, Dark theme would make this nicer for evening use.",
+    "rating": 4,
+    "date": "2026-09-01",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r171",
+    "text": "Seriously, Search is slow with a large task list.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b2-r172",
+    "text": "Seriously, Loading screen is up for ages every single time.",
+    "rating": 2,
+    "date": "2026-09-02",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r173",
+    "text": "Please \u2014 Sync is broken. Changes on one device don't show up on another.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r174",
+    "text": "Sync failed silently and I didn't notice until days later.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r175",
+    "text": "Multiple sync conflicts this week. No clean way to resolve them. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r176",
+    "text": "Seriously, Cross-device sync has been unreliable for weeks now. Just a heads up.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r177",
+    "text": "Dark theme would make this nicer for evening use.",
+    "rating": 3,
+    "date": "2026-09-06",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r178",
+    "text": "FYI: Feature request: dark mode. Everything else is great.",
+    "rating": 3,
+    "date": "2026-08-31",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r179",
+    "text": "Missing the reminder feature that worked in the old version. Would appreciate it.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b2-r180",
+    "text": "Cancelled my subscription. Price doesn't match the value. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-04",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r181",
+    "text": "FYI: Dark mode request \u2014 I use this app at night a lot. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r182",
+    "text": "FYI: Slow to launch and slow to load my tasks. Painful.",
+    "rating": 3,
+    "date": "2026-09-01",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r183",
+    "text": "Would love guest access without a full account.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b2-r184",
+    "text": "FYI: Sync delay is killing my workflow. I switch between 3 devices daily. Thanks.",
+    "rating": 2,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r185",
+    "text": "Please \u2014 Would switch to paid if the price was reasonable. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-01",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r186",
+    "text": "Slow to launch and slow to load my tasks. Painful. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-05",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r187",
+    "text": "Collaboration features are limited for small teams. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b2-r188",
+    "text": "Please add a night mode / dark theme option. Thanks.",
+    "rating": 4,
+    "date": "2026-09-05",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r189",
+    "text": "Please \u2014 Way too expensive for what it does. $15/mo is a lot for a to-do app.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r190",
+    "text": "Honestly, Real-time co-editing is missing. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b2-r191",
+    "text": "Would pay extra for a proper dark mode.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r192",
+    "text": "Why is there still no dark theme in 2026? Please fix.",
+    "rating": 3,
+    "date": "2026-08-31",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r193",
+    "text": "Seriously, Notifications are too aggressive on shared tasks. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-01",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b2-r194",
+    "text": "Please \u2014 Reminders sometimes don't fire at all. Thanks.",
+    "rating": 4,
+    "date": "2026-08-31",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b2-r195",
+    "text": "Please \u2014 Team plan pricing is absurd for a small team. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r196",
+    "text": "Team plan pricing is absurd for a small team. Please fix.",
+    "rating": 1,
+    "date": "2026-09-02",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r197",
+    "text": "Seriously, First-run experience felt empty. No guidance. Please fix.",
+    "rating": 4,
+    "date": "2026-09-06",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b2-r198",
+    "text": "Real-time co-editing is missing. Please fix.",
+    "rating": 4,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b2-r199",
+    "text": "Search is case-sensitive for some reason.",
+    "rating": 4,
+    "date": "2026-09-01",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b2-r200",
+    "text": "Please \u2014 Cold start is over 20 seconds on my phone.",
+    "rating": 1,
+    "date": "2026-09-06",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r201",
+    "text": "Startup is painfully slow since the last update. Please fix.",
+    "rating": 4,
+    "date": "2026-08-31",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r202",
+    "text": "Would love full-text search across notes and tasks. Thanks.",
+    "rating": 3,
+    "date": "2026-09-04",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b2-r203",
+    "text": "Would love full-text search across notes and tasks. Thanks.",
+    "rating": 4,
+    "date": "2026-09-04",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b2-r204",
+    "text": "Sync failed silently and I didn't notice until days later. Thanks.",
+    "rating": 2,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r205",
+    "text": "Raised prices again? Time to look at alternatives.",
+    "rating": 1,
+    "date": "2026-08-31",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r206",
+    "text": "App takes forever to launch. I've started using alternatives.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r207",
+    "text": "Would pay extra for a proper dark mode. Please fix.",
+    "rating": 3,
+    "date": "2026-09-05",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r208",
+    "text": "Honestly, First-run experience felt empty. No guidance.",
+    "rating": 3,
+    "date": "2026-09-01",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b2-r209",
+    "text": "Can we get a dark mode? Would improve late-night usage.",
+    "rating": 3,
+    "date": "2026-08-31",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r210",
+    "text": "FYI: Sync failed silently and I didn't notice until days later. Would appreciate it.",
+    "rating": 1,
+    "date": "2026-09-03",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r211",
+    "text": "iPhone app feels like an afterthought. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-04",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b2-r212",
+    "text": "FYI: Sharing permissions are confusing.",
+    "rating": 3,
+    "date": "2026-09-04",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b2-r213",
+    "text": "Please \u2014 Sync delay is killing my workflow. I switch between 3 devices daily. Thanks.",
+    "rating": 1,
+    "date": "2026-08-31",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r214",
+    "text": "Why is startup so slow? A simple app should open instantly. Please fix.",
+    "rating": 3,
+    "date": "2026-09-01",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r215",
+    "text": "Bottom nav is awkward on a tablet.",
+    "rating": 3,
+    "date": "2026-08-31",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b2-r216",
+    "text": "Sync delay is killing my workflow. I switch between 3 devices daily.",
+    "rating": 2,
+    "date": "2026-09-01",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r217",
+    "text": "Consider adding a dark theme for night owls. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-04",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r218",
+    "text": "Onboarding didn't mention the keyboard shortcuts. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-04",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b2-r219",
+    "text": "Cancelled my subscription. Price doesn't match the value. Just a heads up.",
+    "rating": 2,
+    "date": "2026-08-31",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b2-r220",
+    "text": "Honestly, Would pay extra for a proper dark mode. Please fix.",
+    "rating": 3,
+    "date": "2026-09-02",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r221",
+    "text": "Why is startup so slow? A simple app should open instantly. Thanks.",
+    "rating": 3,
+    "date": "2026-08-31",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r222",
+    "text": "Multiple sync conflicts this week. No clean way to resolve them. Please fix.",
+    "rating": 2,
+    "date": "2026-09-02",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r223",
+    "text": "Dark theme would make this nicer for evening use. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-08-31",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b2-r224",
+    "text": "The mobile and desktop apps are completely out of sync.",
+    "rating": 1,
+    "date": "2026-09-01",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r225",
+    "text": "Seriously, Search doesn't find tasks I know exist.",
+    "rating": 4,
+    "date": "2026-09-05",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b2-r226",
+    "text": "Sync is broken. Changes on one device don't show up on another. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-06",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b2-r227",
+    "text": "Startup is painfully slow since the last update. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-04",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r228",
+    "text": "Cold start is over 20 seconds on my phone. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-03",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b2-r229",
+    "text": "FYI: Cancelled my subscription. Price doesn't match the value. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-05",
+    "ground_truth_theme": "pricing"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "review_id": "b3-r186",
+    "batch": 3,
+    "expected_theme": "pricing",
+    "text": "Honestly, Pricing is out of touch. I use 10% of the paid features."
+  },
+  {
+    "review_id": "b3-r100",
+    "batch": 3,
+    "expected_theme": "calendar_integration",
+    "text": "Add calendar sync please. Scheduling is half my workflow."
+  },
+  {
+    "review_id": "b3-r280",
+    "batch": 3,
+    "expected_theme": "sync_bugs",
+    "text": "FYI: Data conflict warnings every time I switch devices. Unacceptable."
+  },
+  {
+    "review_id": "b2-r157",
+    "batch": 2,
+    "expected_theme": "pricing",
+    "text": "Seriously, Way too expensive for what it does. $15/mo is a lot for a to-do app."
+  },
+  {
+    "review_id": "b3-r138",
+    "batch": 3,
+    "expected_theme": "sync_bugs",
+    "text": "My notes don't sync between devices. I have to re-enter everything manually. Please fix."
+  },
+  {
+    "review_id": "b3-r153",
+    "batch": 3,
+    "expected_theme": "sync_bugs",
+    "text": "Honestly, Cross-device sync has been unreliable for weeks now. Please fix."
+  },
+  {
+    "review_id": "b3-r303",
+    "batch": 3,
+    "expected_theme": "slow_startup",
+    "text": "Startup performance has gotten worse, not better."
+  },
+  {
+    "review_id": "b1-r170",
+    "batch": 1,
+    "expected_theme": "sync_bugs",
+    "text": "Sync delay is killing my workflow. I switch between 3 devices daily. Just a heads up."
+  },
+  {
+    "review_id": "b2-r123",
+    "batch": 2,
+    "expected_theme": "sync_bugs",
+    "text": "Why does it take 10+ minutes for changes to sync across devices? Considering switching."
+  },
+  {
+    "review_id": "b2-r175",
+    "batch": 2,
+    "expected_theme": "sync_bugs",
+    "text": "Multiple sync conflicts this week. No clean way to resolve them. Would appreciate it."
+  },
+  {
+    "review_id": "b3-r204",
+    "batch": 3,
+    "expected_theme": "sync_bugs",
+    "text": "Please \u2014 Every time I open on a second device I see the wrong state. Considering switching."
+  },
+  {
+    "review_id": "b2-r151",
+    "batch": 2,
+    "expected_theme": "pricing",
+    "text": "Free tier is too limited and paid is too expensive. Love the app otherwise."
+  },
+  {
+    "review_id": "b2-r098",
+    "batch": 2,
+    "expected_theme": "sync_bugs",
+    "text": "My notes don't sync between devices. I have to re-enter everything manually. Thanks."
+  },
+  {
+    "review_id": "b2-r183",
+    "batch": 2,
+    "expected_theme": "sharing",
+    "text": "Would love guest access without a full account."
+  },
+  {
+    "review_id": "b3-r267",
+    "batch": 3,
+    "expected_theme": "pricing",
+    "text": "Not worth the monthly fee compared to competitors."
+  },
+  {
+    "review_id": "b1-r210",
+    "batch": 1,
+    "expected_theme": "slow_startup",
+    "text": "Honestly, Takes so long to open I forget what I wanted to add. Please fix."
+  },
+  {
+    "review_id": "b3-r226",
+    "batch": 3,
+    "expected_theme": "sync_bugs",
+    "text": "The mobile and desktop apps are completely out of sync."
+  },
+  {
+    "review_id": "b2-r156",
+    "batch": 2,
+    "expected_theme": "sync_bugs",
+    "text": "Sync doesn't work on Android. Works fine on iOS."
+  },
+  {
+    "review_id": "b1-r112",
+    "batch": 1,
+    "expected_theme": "dark_mode",
+    "text": "Honestly, Why is there still no dark theme in 2026? Thanks."
+  },
+  {
+    "review_id": "b2-r218",
+    "batch": 2,
+    "expected_theme": "onboarding",
+    "text": "Onboarding didn't mention the keyboard shortcuts. Would appreciate it."
+  },
+  {
+    "review_id": "b2-r191",
+    "batch": 2,
+    "expected_theme": "dark_mode",
+    "text": "Would pay extra for a proper dark mode."
+  },
+  {
+    "review_id": "b1-r067",
+    "batch": 1,
+    "expected_theme": "sync_bugs",
+    "text": "Sync keeps losing my edits between my laptop and phone. Lost hours of work. Just a heads up."
+  },
+  {
+    "review_id": "b3-r071",
+    "batch": 3,
+    "expected_theme": "sync_bugs",
+    "text": "FYI: Cross-device sync has been unreliable for weeks now. Love the app otherwise."
+  },
+  {
+    "review_id": "b3-r269",
+    "batch": 3,
+    "expected_theme": "dark_mode",
+    "text": "Honestly, Can we get a dark mode? Would improve late-night usage. Love the app otherwise."
+  },
+  {
+    "review_id": "b3-r238",
+    "batch": 3,
+    "expected_theme": "sync_bugs",
+    "text": "Getting 'sync failed' errors constantly. Can't rely on this for work. Would appreciate it."
+  },
+  {
+    "review_id": "b2-r139",
+    "batch": 2,
+    "expected_theme": "pricing",
+    "text": "Honestly, Cost keeps going up with no new features that matter."
+  },
+  {
+    "review_id": "b2-r196",
+    "batch": 2,
+    "expected_theme": "pricing",
+    "text": "Team plan pricing is absurd for a small team. Please fix."
+  },
+  {
+    "review_id": "b2-r101",
+    "batch": 2,
+    "expected_theme": "slow_startup",
+    "text": "Seriously, Would love a faster launch. Currently unusable in a hurry. Just a heads up."
+  },
+  {
+    "review_id": "b3-r233",
+    "batch": 3,
+    "expected_theme": "sharing",
+    "text": "Collaboration features are limited for small teams."
+  },
+  {
+    "review_id": "b1-r019",
+    "batch": 1,
+    "expected_theme": "pricing",
+    "text": "Not worth the monthly fee compared to competitors."
+  },
+  {
+    "review_id": "b2-r144",
+    "batch": 2,
+    "expected_theme": "dark_mode",
+    "text": "Seriously, Add dark mode please. My only real complaint. Please fix."
+  },
+  {
+    "review_id": "b3-r162",
+    "batch": 3,
+    "expected_theme": "notifications",
+    "text": "Seriously, Missing the reminder feature that worked in the old version. Considering switching."
+  },
+  {
+    "review_id": "b1-r122",
+    "batch": 1,
+    "expected_theme": "slow_startup",
+    "text": "Why is startup so slow? A simple app should open instantly. Please fix."
+  },
+  {
+    "review_id": "b3-r025",
+    "batch": 3,
+    "expected_theme": "pricing",
+    "text": "Would switch to paid if the price was reasonable. Thanks."
+  },
+  {
+    "review_id": "b2-r035",
+    "batch": 2,
+    "expected_theme": "sync_bugs",
+    "text": "Seriously, Multiple sync conflicts this week. No clean way to resolve them. Love the app otherwise."
+  },
+  {
+    "review_id": "b1-r176",
+    "batch": 1,
+    "expected_theme": "slow_startup",
+    "text": "App takes forever to launch. I've started using alternatives. Just a heads up."
+  },
+  {
+    "review_id": "b2-r104",
+    "batch": 2,
+    "expected_theme": "sync_bugs",
+    "text": "Please \u2014 Cross-device sync has been unreliable for weeks now. Considering switching."
+  },
+  {
+    "review_id": "b3-r249",
+    "batch": 3,
+    "expected_theme": "slow_startup",
+    "text": "Loading screen is up for ages every single time. Just a heads up."
+  },
+  {
+    "review_id": "b3-r261",
+    "batch": 3,
+    "expected_theme": "sync_bugs",
+    "text": "Sync failed silently and I didn't notice until days later. Just a heads up."
+  },
+  {
+    "review_id": "b3-r173",
+    "batch": 3,
+    "expected_theme": "calendar_integration",
+    "text": "FYI: I have to manually copy tasks into my calendar. Please integrate. Would appreciate it."
+  },
+  {
+    "review_id": "b3-r022",
+    "batch": 3,
+    "expected_theme": "sharing",
+    "text": "FYI: Would like read-only sharing links. Please fix."
+  },
+  {
+    "review_id": "b3-r171",
+    "batch": 3,
+    "expected_theme": "calendar_integration",
+    "text": "Honestly, Feature request: pull in Outlook / Google Calendar events. Please fix."
+  },
+  {
+    "review_id": "b2-r054",
+    "batch": 2,
+    "expected_theme": "sync_bugs",
+    "text": "Please \u2014 Sync is broken. Changes on one device don't show up on another."
+  },
+  {
+    "review_id": "b1-r206",
+    "batch": 1,
+    "expected_theme": "sharing",
+    "text": "Honestly, Would love guest access without a full account."
+  },
+  {
+    "review_id": "b3-r114",
+    "batch": 3,
+    "expected_theme": "sync_bugs",
+    "text": "Honestly, Cross-device sync has been unreliable for weeks now. Just a heads up."
+  },
+  {
+    "review_id": "b1-r069",
+    "batch": 1,
+    "expected_theme": "sync_bugs",
+    "text": "Sync delay is killing my workflow. I switch between 3 devices daily."
+  },
+  {
+    "review_id": "b3-r207",
+    "batch": 3,
+    "expected_theme": "dark_mode",
+    "text": "Seriously, Dark mode request \u2014 I use this app at night a lot. Just a heads up."
+  },
+  {
+    "review_id": "b3-r092",
+    "batch": 3,
+    "expected_theme": "calendar_integration",
+    "text": "I have to manually copy tasks into my calendar. Please integrate. Would appreciate it."
+  },
+  {
+    "review_id": "b3-r187",
+    "batch": 3,
+    "expected_theme": "sync_bugs",
+    "text": "Seriously, Sync is broken. Changes on one device don't show up on another. Just a heads up."
+  },
+  {
+    "review_id": "b3-r145",
+    "batch": 3,
+    "expected_theme": "sync_bugs",
+    "text": "Getting 'sync failed' errors constantly. Can't rely on this for work."
+  }
+]

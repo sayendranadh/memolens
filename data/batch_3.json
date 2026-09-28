@@ -1,0 +1,2144 @@
+[
+  {
+    "id": "b3-r001",
+    "text": "Just lost a whole project because sync overwrote my desktop edits. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r002",
+    "text": "FYI: Way too expensive for what it does. $15/mo is a lot for a to-do app. Please fix.",
+    "rating": 1,
+    "date": "2026-09-23",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r003",
+    "text": "Raised prices again? Time to look at alternatives.",
+    "rating": 1,
+    "date": "2026-09-26",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r004",
+    "text": "Seriously, Onboarding is confusing \u2014 I didn't know where to start. Considering switching.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b3-r005",
+    "text": "Honestly, Way too expensive for what it does. $15/mo is a lot for a to-do app.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r006",
+    "text": "Pricing is out of touch. I use 10% of the paid features.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r007",
+    "text": "Seriously, Can't justify the subscription price when free options exist.",
+    "rating": 1,
+    "date": "2026-09-26",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r008",
+    "text": "Search results are outdated by a day or so.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b3-r009",
+    "text": "FYI: Consider adding a dark theme for night owls.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r010",
+    "text": "Honestly, Way too expensive for what it does. $15/mo is a lot for a to-do app. Thanks.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r011",
+    "text": "The paid tier feels overpriced for personal use. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r012",
+    "text": "Cross-device sync has been unreliable for weeks now.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r013",
+    "text": "Please \u2014 Real-time co-editing is missing. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b3-r014",
+    "text": "FYI: I want my tasks to appear in my calendar automatically. Love the app otherwise.",
+    "rating": 5,
+    "date": "2026-09-22",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r015",
+    "text": "Sync failed silently and I didn't notice until days later. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-21",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r016",
+    "text": "Add calendar sync please. Scheduling is half my workflow. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-22",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r017",
+    "text": "Feature request: dark mode. Everything else is great. Please fix.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r018",
+    "text": "Seriously, Notifications are too aggressive on shared tasks.",
+    "rating": 4,
+    "date": "2026-09-23",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r019",
+    "text": "Free tier is too limited and paid is too expensive. Please fix.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r020",
+    "text": "Pricing is out of touch. I use 10% of the paid features. Please fix.",
+    "rating": 3,
+    "date": "2026-09-23",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r021",
+    "text": "Sync keeps losing my edits between my laptop and phone. Lost hours of work. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r022",
+    "text": "FYI: Would like read-only sharing links. Please fix.",
+    "rating": 3,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b3-r023",
+    "text": "FYI: Takes so long to open I forget what I wanted to add. Please fix.",
+    "rating": 4,
+    "date": "2026-09-23",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r024",
+    "text": "Google Calendar integration is top of my wishlist. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r025",
+    "text": "Would switch to paid if the price was reasonable. Thanks.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r026",
+    "text": "Real-time co-editing is missing. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b3-r027",
+    "text": "Sync delay is killing my workflow. I switch between 3 devices daily. Please fix.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r028",
+    "text": "Search doesn't find tasks I know exist. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-22",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b3-r029",
+    "text": "iPhone app feels like an afterthought.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b3-r030",
+    "text": "FYI: Why is there still no dark theme in 2026? Please fix.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r031",
+    "text": "Please \u2014 Dark mode request \u2014 I use this app at night a lot. Considering switching.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r032",
+    "text": "Seriously, Cancelled my subscription. Price doesn't match the value. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-21",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r033",
+    "text": "Honestly, Search is case-sensitive for some reason. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-23",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b3-r034",
+    "text": "Cost keeps going up with no new features that matter. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-23",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r035",
+    "text": "Dark mode request \u2014 I use this app at night a lot.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r036",
+    "text": "Please \u2014 Bottom nav is awkward on a tablet. Considering switching.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b3-r037",
+    "text": "FYI: Can't justify the subscription price when free options exist.",
+    "rating": 4,
+    "date": "2026-09-23",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r038",
+    "text": "Seriously, Google Calendar integration is top of my wishlist. Please fix.",
+    "rating": 3,
+    "date": "2026-09-24",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r039",
+    "text": "Cost keeps going up with no new features that matter. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r040",
+    "text": "Seriously, Why is startup so slow? A simple app should open instantly. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-26",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r041",
+    "text": "Please \u2014 Getting 'sync failed' errors constantly. Can't rely on this for work.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r042",
+    "text": "Honestly, Missing the reminder feature that worked in the old version. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-26",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r043",
+    "text": "Pricing is out of touch. I use 10% of the paid features.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r044",
+    "text": "Sync doesn't work on Android. Works fine on iOS. Thanks.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r045",
+    "text": "Seriously, Feature request: dark mode. Everything else is great. Thanks.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r046",
+    "text": "Honestly, Team plan pricing is absurd for a small team.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r047",
+    "text": "FYI: Add dark mode please. My only real complaint. Just a heads up.",
+    "rating": 4,
+    "date": "2026-09-21",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r048",
+    "text": "Would pay extra for a proper dark mode.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r049",
+    "text": "I want my tasks to appear in my calendar automatically. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r050",
+    "text": "Please \u2014 Sharing a task with someone outside the team is clunky.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b3-r051",
+    "text": "Please \u2014 Would switch to paid if the price was reasonable. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r052",
+    "text": "Please \u2014 Team plan pricing is absurd for a small team. Please fix.",
+    "rating": 1,
+    "date": "2026-09-23",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r053",
+    "text": "Onboarding didn't mention the keyboard shortcuts. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-23",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b3-r054",
+    "text": "Cost keeps going up with no new features that matter.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r055",
+    "text": "Sync delay is killing my workflow. I switch between 3 devices daily. Please fix.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r056",
+    "text": "Honestly, Sync failed silently and I didn't notice until days later. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r057",
+    "text": "Data conflict warnings every time I switch devices. Unacceptable.",
+    "rating": 1,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r058",
+    "text": "Please \u2014 Sync is broken. Changes on one device don't show up on another.",
+    "rating": 1,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r059",
+    "text": "Filtering by tag in search would help a lot. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-23",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b3-r060",
+    "text": "Not worth the monthly fee compared to competitors. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r061",
+    "text": "FYI: Raised prices again? Time to look at alternatives. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r062",
+    "text": "Please \u2014 Add calendar sync please. Scheduling is half my workflow. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r063",
+    "text": "Every time I open on a second device I see the wrong state.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r064",
+    "text": "Honestly, Why does it take 10+ minutes for changes to sync across devices?",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r065",
+    "text": "Would pay extra for a proper dark mode. Thanks.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r066",
+    "text": "Seriously, Would love two-way calendar sync so tasks show up in my schedule. Just a heads up.",
+    "rating": 5,
+    "date": "2026-09-21",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r067",
+    "text": "Seriously, Cost keeps going up with no new features that matter. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-21",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r068",
+    "text": "Sync keeps losing my edits between my laptop and phone. Lost hours of work.",
+    "rating": 1,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r069",
+    "text": "Seriously, Free tier is too limited and paid is too expensive. Please fix.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r070",
+    "text": "Would switch to paid if the price was reasonable. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r071",
+    "text": "FYI: Cross-device sync has been unreliable for weeks now. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r072",
+    "text": "Cancelled my subscription. Price doesn't match the value.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r073",
+    "text": "Honestly, Sync failed silently and I didn't notice until days later. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r074",
+    "text": "Seriously, Cost keeps going up with no new features that matter.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r075",
+    "text": "Multiple sync conflicts this week. No clean way to resolve them. Please fix.",
+    "rating": 1,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r076",
+    "text": "Connect to Apple Calendar and I'd pay in a heartbeat. Thanks.",
+    "rating": 5,
+    "date": "2026-09-23",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r077",
+    "text": "Search results are outdated by a day or so. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b3-r078",
+    "text": "Slow launch times make me reach for a notes app instead. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r079",
+    "text": "Honestly, Dark mode is the one thing missing for me.",
+    "rating": 4,
+    "date": "2026-09-24",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r080",
+    "text": "FYI: Every time I open on a second device I see the wrong state. Please fix.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r081",
+    "text": "Honestly, Why does it take 10+ minutes for changes to sync across devices? Please fix.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r082",
+    "text": "Feature request: dark mode. Everything else is great.",
+    "rating": 4,
+    "date": "2026-09-22",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r083",
+    "text": "Android version lags behind the web app. Would appreciate it.",
+    "rating": 2,
+    "date": "2026-09-21",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b3-r084",
+    "text": "Any plans for calendar integration? Would be a game-changer.",
+    "rating": 4,
+    "date": "2026-09-26",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r085",
+    "text": "Data conflict warnings every time I switch devices. Unacceptable.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r086",
+    "text": "FYI: Would like read-only sharing links. Thanks.",
+    "rating": 5,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b3-r087",
+    "text": "FYI: Sync failed silently and I didn't notice until days later. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r088",
+    "text": "Cold start is over 20 seconds on my phone. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-22",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r089",
+    "text": "Please \u2014 The mobile and desktop apps are completely out of sync. Thanks.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r090",
+    "text": "Multiple sync conflicts this week. No clean way to resolve them. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r091",
+    "text": "Would love guest access without a full account. Would appreciate it.",
+    "rating": 5,
+    "date": "2026-09-21",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b3-r092",
+    "text": "I have to manually copy tasks into my calendar. Please integrate. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-21",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r093",
+    "text": "Search doesn't find tasks I know exist.",
+    "rating": 3,
+    "date": "2026-09-23",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b3-r094",
+    "text": "FYI: Every time I open on a second device I see the wrong state.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r095",
+    "text": "Every time I open on a second device I see the wrong state. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r096",
+    "text": "Dark theme would make this nicer for evening use.",
+    "rating": 4,
+    "date": "2026-09-26",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r097",
+    "text": "Would love two-way calendar sync so tasks show up in my schedule. Love the app otherwise.",
+    "rating": 5,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r098",
+    "text": "Calendar view / integration would make this a daily driver. Please fix.",
+    "rating": 4,
+    "date": "2026-09-22",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r099",
+    "text": "Startup performance has gotten worse, not better. Would appreciate it.",
+    "rating": 2,
+    "date": "2026-09-21",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r100",
+    "text": "Add calendar sync please. Scheduling is half my workflow.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r101",
+    "text": "FYI: Cancelled my subscription. Price doesn't match the value. Please fix.",
+    "rating": 2,
+    "date": "2026-09-21",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r102",
+    "text": "Would love more granular notification controls. Would appreciate it.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r103",
+    "text": "Any plans for calendar integration? Would be a game-changer. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-26",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r104",
+    "text": "Please \u2014 Team plan pricing is absurd for a small team.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r105",
+    "text": "FYI: Please add a dark mode. The white background kills my eyes at night. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-21",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r106",
+    "text": "Sync keeps losing my edits between my laptop and phone. Lost hours of work. Thanks.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r107",
+    "text": "The bright white UI is hard on the eyes. Dark mode would help. Please fix.",
+    "rating": 4,
+    "date": "2026-09-23",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r108",
+    "text": "The mobile UI is cramped on smaller phones. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b3-r109",
+    "text": "Honestly, Sync doesn't work on Android. Works fine on iOS.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r110",
+    "text": "Just lost a whole project because sync overwrote my desktop edits.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r111",
+    "text": "The mobile and desktop apps are completely out of sync. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r112",
+    "text": "Please \u2014 Filtering by tag in search would help a lot.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b3-r113",
+    "text": "Honestly, Sync doesn't work on Android. Works fine on iOS.",
+    "rating": 1,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r114",
+    "text": "Honestly, Cross-device sync has been unreliable for weeks now. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r115",
+    "text": "Sync delay is killing my workflow. I switch between 3 devices daily. Would appreciate it.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r116",
+    "text": "Seriously, Sync is broken. Changes on one device don't show up on another. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r117",
+    "text": "Please \u2014 Would pay extra for a proper dark mode. Considering switching.",
+    "rating": 5,
+    "date": "2026-09-21",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r118",
+    "text": "FYI: Takes 15 seconds to open. Way too slow.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r119",
+    "text": "FYI: Sync keeps losing my edits between my laptop and phone. Lost hours of work. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r120",
+    "text": "FYI: Please integrate with Google Calendar. I live in my calendar.",
+    "rating": 5,
+    "date": "2026-09-22",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r121",
+    "text": "Please \u2014 Please add calendar integration. I miss deadlines otherwise.",
+    "rating": 4,
+    "date": "2026-09-22",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r122",
+    "text": "Please \u2014 Connect to Apple Calendar and I'd pay in a heartbeat.",
+    "rating": 5,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r123",
+    "text": "Honestly, The mobile and desktop apps are completely out of sync. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r124",
+    "text": "Feature request: pull in Outlook / Google Calendar events. Would appreciate it.",
+    "rating": 5,
+    "date": "2026-09-24",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r125",
+    "text": "Please add a dark mode. The white background kills my eyes at night. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r126",
+    "text": "The paid tier feels overpriced for personal use.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r127",
+    "text": "Would love two-way calendar sync so tasks show up in my schedule. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-26",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r128",
+    "text": "Onboarding is confusing \u2014 I didn't know where to start.",
+    "rating": 4,
+    "date": "2026-09-26",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b3-r129",
+    "text": "Calendar view / integration would make this a daily driver. Thanks.",
+    "rating": 4,
+    "date": "2026-09-22",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r130",
+    "text": "FYI: I want my tasks to appear in my calendar automatically. Thanks.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r131",
+    "text": "Honestly, Too expensive. I'd rather pay once than subscribe. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r132",
+    "text": "I have to manually copy tasks into my calendar. Please integrate. Just a heads up.",
+    "rating": 4,
+    "date": "2026-09-24",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r133",
+    "text": "Sync is broken. Changes on one device don't show up on another.",
+    "rating": 1,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r134",
+    "text": "The paid tier feels overpriced for personal use. Please fix.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r135",
+    "text": "Seriously, My notes don't sync between devices. I have to re-enter everything manually. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r136",
+    "text": "Seriously, Missing the reminder feature that worked in the old version. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-26",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r137",
+    "text": "My notes don't sync between devices. I have to re-enter everything manually. Thanks.",
+    "rating": 2,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r138",
+    "text": "My notes don't sync between devices. I have to re-enter everything manually. Please fix.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r139",
+    "text": "Multiple sync conflicts this week. No clean way to resolve them. Would appreciate it.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r140",
+    "text": "Team plan pricing is absurd for a small team. Thanks.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r141",
+    "text": "Honestly, Multiple sync conflicts this week. No clean way to resolve them. Thanks.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r142",
+    "text": "Seriously, Calendar view / integration would make this a daily driver.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r143",
+    "text": "Notifications are unreliable. I miss reminders constantly. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r144",
+    "text": "Dark theme would make this nicer for evening use.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r145",
+    "text": "Getting 'sync failed' errors constantly. Can't rely on this for work.",
+    "rating": 1,
+    "date": "2026-09-21",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r146",
+    "text": "My notes don't sync between devices. I have to re-enter everything manually. Thanks.",
+    "rating": 2,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r147",
+    "text": "Seriously, Multiple sync conflicts this week. No clean way to resolve them. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r148",
+    "text": "Please \u2014 Getting 'sync failed' errors constantly. Can't rely on this for work.",
+    "rating": 1,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r149",
+    "text": "Honestly, IPhone app feels like an afterthought.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b3-r150",
+    "text": "Why does it take 10+ minutes for changes to sync across devices?",
+    "rating": 2,
+    "date": "2026-09-21",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r151",
+    "text": "Cross-device sync has been unreliable for weeks now. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r152",
+    "text": "Honestly, Add calendar sync please. Scheduling is half my workflow. Just a heads up.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r153",
+    "text": "Honestly, Cross-device sync has been unreliable for weeks now. Please fix.",
+    "rating": 2,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r154",
+    "text": "Honestly, The bright white UI is hard on the eyes. Dark mode would help. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r155",
+    "text": "Cost keeps going up with no new features that matter. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r156",
+    "text": "FYI: Feature request: pull in Outlook / Google Calendar events. Thanks.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r157",
+    "text": "iPhone app feels like an afterthought.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b3-r158",
+    "text": "Please \u2014 Pricing is out of touch. I use 10% of the paid features.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r159",
+    "text": "Please \u2014 Notifications are too aggressive on shared tasks. Please fix.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r160",
+    "text": "Connect to Apple Calendar and I'd pay in a heartbeat.",
+    "rating": 5,
+    "date": "2026-09-27",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r161",
+    "text": "Way too expensive for what it does. $15/mo is a lot for a to-do app. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r162",
+    "text": "Seriously, Missing the reminder feature that worked in the old version. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-26",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r163",
+    "text": "Please \u2014 Calendar integration is the missing piece for me. Just a heads up.",
+    "rating": 5,
+    "date": "2026-09-21",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r164",
+    "text": "Please \u2014 Every time I open on a second device I see the wrong state.",
+    "rating": 1,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r165",
+    "text": "Feature request: pull in Outlook / Google Calendar events. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-26",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r166",
+    "text": "Connect to Apple Calendar and I'd pay in a heartbeat. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r167",
+    "text": "Cancelled my subscription. Price doesn't match the value.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r168",
+    "text": "Please \u2014 Would switch to paid if the price was reasonable. Please fix.",
+    "rating": 4,
+    "date": "2026-09-23",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r169",
+    "text": "FYI: Not worth the monthly fee compared to competitors. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-25",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r170",
+    "text": "Honestly, Not worth the monthly fee compared to competitors. Thanks.",
+    "rating": 1,
+    "date": "2026-09-25",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r171",
+    "text": "Honestly, Feature request: pull in Outlook / Google Calendar events. Please fix.",
+    "rating": 4,
+    "date": "2026-09-21",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r172",
+    "text": "Please add calendar integration. I miss deadlines otherwise. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-23",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r173",
+    "text": "FYI: I have to manually copy tasks into my calendar. Please integrate. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-26",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r174",
+    "text": "Seriously, Sync delay is killing my workflow. I switch between 3 devices daily.",
+    "rating": 3,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r175",
+    "text": "Please \u2014 App takes forever to launch. I've started using alternatives. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r176",
+    "text": "Onboarding is confusing \u2014 I didn't know where to start. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b3-r177",
+    "text": "Please \u2014 Sync is broken. Changes on one device don't show up on another. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r178",
+    "text": "Honestly, Any plans for calendar integration? Would be a game-changer. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-23",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r179",
+    "text": "Getting 'sync failed' errors constantly. Can't rely on this for work. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r180",
+    "text": "Calendar view / integration would make this a daily driver. Thanks.",
+    "rating": 4,
+    "date": "2026-09-21",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r181",
+    "text": "Honestly, Push notifications arrive late on iOS.",
+    "rating": 2,
+    "date": "2026-09-26",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r182",
+    "text": "Cross-device sync has been unreliable for weeks now.",
+    "rating": 1,
+    "date": "2026-09-21",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r183",
+    "text": "Please \u2014 Cost keeps going up with no new features that matter.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r184",
+    "text": "Feature request: pull in Outlook / Google Calendar events.",
+    "rating": 4,
+    "date": "2026-09-24",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r185",
+    "text": "Seriously, Getting 'sync failed' errors constantly. Can't rely on this for work.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r186",
+    "text": "Honestly, Pricing is out of touch. I use 10% of the paid features.",
+    "rating": 1,
+    "date": "2026-09-25",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r187",
+    "text": "Seriously, Sync is broken. Changes on one device don't show up on another. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r188",
+    "text": "Honestly, First-run experience felt empty. No guidance. Please fix.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b3-r189",
+    "text": "Would switch to paid if the price was reasonable.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r190",
+    "text": "Please \u2014 Add dark mode please. My only real complaint. Please fix.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r191",
+    "text": "The mobile and desktop apps are completely out of sync. Thanks.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r192",
+    "text": "Calendar view / integration would make this a daily driver. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r193",
+    "text": "Seriously, Please integrate with Google Calendar. I live in my calendar.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r194",
+    "text": "Honestly, Onboarding didn't mention the keyboard shortcuts.",
+    "rating": 4,
+    "date": "2026-09-26",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b3-r195",
+    "text": "FYI: Please add a dark mode. The white background kills my eyes at night. Please fix.",
+    "rating": 4,
+    "date": "2026-09-21",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r196",
+    "text": "Honestly, Getting 'sync failed' errors constantly. Can't rely on this for work.",
+    "rating": 1,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r197",
+    "text": "I want my tasks to appear in my calendar automatically. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r198",
+    "text": "Please add a night mode / dark theme option.",
+    "rating": 5,
+    "date": "2026-09-22",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r199",
+    "text": "Not worth the monthly fee compared to competitors.",
+    "rating": 1,
+    "date": "2026-09-25",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r200",
+    "text": "Seriously, I have to manually copy tasks into my calendar. Please integrate. Considering switching.",
+    "rating": 5,
+    "date": "2026-09-26",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r201",
+    "text": "Seriously, Can't justify the subscription price when free options exist. Would appreciate it.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r202",
+    "text": "Dark mode request \u2014 I use this app at night a lot. Thanks.",
+    "rating": 4,
+    "date": "2026-09-26",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r203",
+    "text": "First-run experience felt empty. No guidance. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-22",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b3-r204",
+    "text": "Please \u2014 Every time I open on a second device I see the wrong state. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r205",
+    "text": "The bright white UI is hard on the eyes. Dark mode would help. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-22",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r206",
+    "text": "FYI: Raised prices again? Time to look at alternatives. Thanks.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r207",
+    "text": "Seriously, Dark mode request \u2014 I use this app at night a lot. Just a heads up.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r208",
+    "text": "Sync is broken. Changes on one device don't show up on another.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r209",
+    "text": "Push notifications arrive late on iOS.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r210",
+    "text": "Cross-device sync has been unreliable for weeks now. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r211",
+    "text": "Honestly, Getting 'sync failed' errors constantly. Can't rely on this for work. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r212",
+    "text": "Honestly, Getting 'sync failed' errors constantly. Can't rely on this for work. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r213",
+    "text": "Sync delay is killing my workflow. I switch between 3 devices daily.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r214",
+    "text": "Connect to Apple Calendar and I'd pay in a heartbeat. Please fix.",
+    "rating": 5,
+    "date": "2026-09-21",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r215",
+    "text": "Getting 'sync failed' errors constantly. Can't rely on this for work.",
+    "rating": 3,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r216",
+    "text": "Multiple sync conflicts this week. No clean way to resolve them. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r217",
+    "text": "Please \u2014 My notes don't sync between devices. I have to re-enter everything manually. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r218",
+    "text": "Getting 'sync failed' errors constantly. Can't rely on this for work. Please fix.",
+    "rating": 1,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r219",
+    "text": "Honestly, Startup performance has gotten worse, not better.",
+    "rating": 4,
+    "date": "2026-09-26",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r220",
+    "text": "Multiple sync conflicts this week. No clean way to resolve them.",
+    "rating": 2,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r221",
+    "text": "Please \u2014 Notifications are unreliable. I miss reminders constantly.",
+    "rating": 3,
+    "date": "2026-09-24",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r222",
+    "text": "Please \u2014 Raised prices again? Time to look at alternatives.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r223",
+    "text": "Sync doesn't work on Android. Works fine on iOS.",
+    "rating": 1,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r224",
+    "text": "First-run experience felt empty. No guidance.",
+    "rating": 4,
+    "date": "2026-09-24",
+    "ground_truth_theme": "onboarding"
+  },
+  {
+    "id": "b3-r225",
+    "text": "Honestly, Data conflict warnings every time I switch devices. Unacceptable. Please fix.",
+    "rating": 2,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r226",
+    "text": "The mobile and desktop apps are completely out of sync.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r227",
+    "text": "FYI: Connect to Apple Calendar and I'd pay in a heartbeat. Please fix.",
+    "rating": 5,
+    "date": "2026-09-26",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r228",
+    "text": "Please \u2014 Filtering by tag in search would help a lot. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b3-r229",
+    "text": "Seriously, Missing the reminder feature that worked in the old version. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r230",
+    "text": "Please \u2014 The app hangs for 10+ seconds on open since v2.2. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-25",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r231",
+    "text": "Sync doesn't work on Android. Works fine on iOS. Love the app otherwise.",
+    "rating": 1,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r232",
+    "text": "I have to manually copy tasks into my calendar. Please integrate.",
+    "rating": 4,
+    "date": "2026-09-23",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r233",
+    "text": "Collaboration features are limited for small teams.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b3-r234",
+    "text": "Please \u2014 Consider adding a dark theme for night owls.",
+    "rating": 5,
+    "date": "2026-09-27",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r235",
+    "text": "Please \u2014 Startup is painfully slow since the last update.",
+    "rating": 1,
+    "date": "2026-09-23",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r236",
+    "text": "FYI: I have to manually copy tasks into my calendar. Please integrate.",
+    "rating": 5,
+    "date": "2026-09-24",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r237",
+    "text": "Getting 'sync failed' errors constantly. Can't rely on this for work. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r238",
+    "text": "Getting 'sync failed' errors constantly. Can't rely on this for work. Would appreciate it.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r239",
+    "text": "Add calendar sync please. Scheduling is half my workflow. Just a heads up.",
+    "rating": 4,
+    "date": "2026-09-22",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r240",
+    "text": "Multiple sync conflicts this week. No clean way to resolve them. Thanks.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r241",
+    "text": "Please \u2014 Feature request: pull in Outlook / Google Calendar events. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-24",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r242",
+    "text": "Any plans for calendar integration? Would be a game-changer.",
+    "rating": 3,
+    "date": "2026-09-23",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r243",
+    "text": "Seriously, Add calendar sync please. Scheduling is half my workflow. Thanks.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r244",
+    "text": "The mobile UI is cramped on smaller phones. Thanks.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b3-r245",
+    "text": "Every time I open on a second device I see the wrong state.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r246",
+    "text": "Please \u2014 Cost keeps going up with no new features that matter. Thanks.",
+    "rating": 2,
+    "date": "2026-09-26",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r247",
+    "text": "The mobile and desktop apps are completely out of sync. Please fix.",
+    "rating": 3,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r248",
+    "text": "Honestly, Add dark mode please. My only real complaint.",
+    "rating": 4,
+    "date": "2026-09-24",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r249",
+    "text": "Loading screen is up for ages every single time. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r250",
+    "text": "Sync is broken. Changes on one device don't show up on another. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r251",
+    "text": "Just lost a whole project because sync overwrote my desktop edits. Please fix.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r252",
+    "text": "I have to manually copy tasks into my calendar. Please integrate. Thanks.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r253",
+    "text": "Reminders sometimes don't fire at all. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-22",
+    "ground_truth_theme": "notifications"
+  },
+  {
+    "id": "b3-r254",
+    "text": "FYI: Any plans for calendar integration? Would be a game-changer. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r255",
+    "text": "Honestly, Sync failed silently and I didn't notice until days later.",
+    "rating": 1,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r256",
+    "text": "The mobile and desktop apps are completely out of sync. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r257",
+    "text": "Cross-device sync has been unreliable for weeks now. Considering switching.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r258",
+    "text": "Honestly, Sync keeps losing my edits between my laptop and phone. Lost hours of work. Thanks.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r259",
+    "text": "I have to manually copy tasks into my calendar. Please integrate. Just a heads up.",
+    "rating": 4,
+    "date": "2026-09-23",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r260",
+    "text": "My notes don't sync between devices. I have to re-enter everything manually. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r261",
+    "text": "Sync failed silently and I didn't notice until days later. Just a heads up.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r262",
+    "text": "Every time I open on a second device I see the wrong state.",
+    "rating": 1,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r263",
+    "text": "Every time I open on a second device I see the wrong state. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r264",
+    "text": "Would love two-way calendar sync so tasks show up in my schedule. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-09-24",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r265",
+    "text": "Getting 'sync failed' errors constantly. Can't rely on this for work. Considering switching.",
+    "rating": 1,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r266",
+    "text": "Please \u2014 Can't justify the subscription price when free options exist. Would appreciate it.",
+    "rating": 3,
+    "date": "2026-09-26",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r267",
+    "text": "Not worth the monthly fee compared to competitors.",
+    "rating": 3,
+    "date": "2026-09-22",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r268",
+    "text": "Honestly, Sync failed silently and I didn't notice until days later.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r269",
+    "text": "Honestly, Can we get a dark mode? Would improve late-night usage. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-09-23",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r270",
+    "text": "Free tier is too limited and paid is too expensive. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-21",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r271",
+    "text": "Please \u2014 The app hangs for 10+ seconds on open since v2.2. Love the app otherwise.",
+    "rating": 2,
+    "date": "2026-09-25",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r272",
+    "text": "Would love full-text search across notes and tasks.",
+    "rating": 2,
+    "date": "2026-09-25",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b3-r273",
+    "text": "Cross-device sync has been unreliable for weeks now.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r274",
+    "text": "Please \u2014 Just lost a whole project because sync overwrote my desktop edits. Please fix.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r275",
+    "text": "Feature request: pull in Outlook / Google Calendar events. Would appreciate it.",
+    "rating": 4,
+    "date": "2026-09-24",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r276",
+    "text": "Please \u2014 Would like read-only sharing links. Thanks.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sharing"
+  },
+  {
+    "id": "b3-r277",
+    "text": "Please \u2014 Feature request: dark mode. Everything else is great.",
+    "rating": 3,
+    "date": "2026-09-24",
+    "ground_truth_theme": "dark_mode"
+  },
+  {
+    "id": "b3-r278",
+    "text": "The mobile and desktop apps are completely out of sync. Just a heads up.",
+    "rating": 2,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r279",
+    "text": "The mobile UI is cramped on smaller phones.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b3-r280",
+    "text": "FYI: Data conflict warnings every time I switch devices. Unacceptable.",
+    "rating": 1,
+    "date": "2026-09-24",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r281",
+    "text": "Seriously, Search doesn't find tasks I know exist.",
+    "rating": 3,
+    "date": "2026-09-22",
+    "ground_truth_theme": "search"
+  },
+  {
+    "id": "b3-r282",
+    "text": "FYI: Sync doesn't work on Android. Works fine on iOS.",
+    "rating": 1,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r283",
+    "text": "FYI: Android version lags behind the web app.",
+    "rating": 3,
+    "date": "2026-09-27",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b3-r284",
+    "text": "Seriously, Can't justify the subscription price when free options exist. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-21",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r285",
+    "text": "Please \u2014 Pricing is out of touch. I use 10% of the paid features. Love the app otherwise.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r286",
+    "text": "I have to manually copy tasks into my calendar. Please integrate.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r287",
+    "text": "Takes 15 seconds to open. Way too slow. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-27",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r288",
+    "text": "Would love two-way calendar sync so tasks show up in my schedule.",
+    "rating": 4,
+    "date": "2026-09-21",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r289",
+    "text": "FYI: Sync doesn't work on Android. Works fine on iOS.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r290",
+    "text": "Mobile font size is too small for my eyes. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-25",
+    "ground_truth_theme": "mobile_ui"
+  },
+  {
+    "id": "b3-r291",
+    "text": "Data conflict warnings every time I switch devices. Unacceptable.",
+    "rating": 2,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r292",
+    "text": "Sync keeps losing my edits between my laptop and phone. Lost hours of work.",
+    "rating": 1,
+    "date": "2026-09-26",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r293",
+    "text": "The mobile and desktop apps are completely out of sync.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r294",
+    "text": "Team plan pricing is absurd for a small team.",
+    "rating": 2,
+    "date": "2026-09-23",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r295",
+    "text": "Please add calendar integration. I miss deadlines otherwise.",
+    "rating": 4,
+    "date": "2026-09-21",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r296",
+    "text": "Raised prices again? Time to look at alternatives.",
+    "rating": 2,
+    "date": "2026-09-24",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r297",
+    "text": "Why does it take 10+ minutes for changes to sync across devices? Considering switching.",
+    "rating": 2,
+    "date": "2026-09-25",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r298",
+    "text": "Calendar view / integration would make this a daily driver.",
+    "rating": 4,
+    "date": "2026-09-21",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r299",
+    "text": "Honestly, Google Calendar integration is top of my wishlist. Love the app otherwise.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r300",
+    "text": "Way too expensive for what it does. $15/mo is a lot for a to-do app. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-25",
+    "ground_truth_theme": "pricing"
+  },
+  {
+    "id": "b3-r301",
+    "text": "Seriously, I have to manually copy tasks into my calendar. Please integrate.",
+    "rating": 3,
+    "date": "2026-09-25",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r302",
+    "text": "Seriously, Cross-device sync has been unreliable for weeks now. Just a heads up.",
+    "rating": 1,
+    "date": "2026-09-27",
+    "ground_truth_theme": "sync_bugs"
+  },
+  {
+    "id": "b3-r303",
+    "text": "Startup performance has gotten worse, not better.",
+    "rating": 3,
+    "date": "2026-09-22",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r304",
+    "text": "Would love a faster launch. Currently unusable in a hurry. Considering switching.",
+    "rating": 2,
+    "date": "2026-09-22",
+    "ground_truth_theme": "slow_startup"
+  },
+  {
+    "id": "b3-r305",
+    "text": "Please \u2014 Feature request: pull in Outlook / Google Calendar events. Considering switching.",
+    "rating": 4,
+    "date": "2026-09-26",
+    "ground_truth_theme": "calendar_integration"
+  },
+  {
+    "id": "b3-r306",
+    "text": "Feature request: pull in Outlook / Google Calendar events.",
+    "rating": 5,
+    "date": "2026-09-24",
+    "ground_truth_theme": "calendar_integration"
+  }
+]
