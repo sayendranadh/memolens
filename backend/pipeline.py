@@ -28,6 +28,24 @@ from .models import (
     Theme, Recommendation, Brief, AnalysisResult, RecalledMemory,
 )
 
+
+THEME_KEYWORDS: dict[str, list[str]] = {
+    "sync": ["sync", "synchroniz", "cross-device", "device", "conflict",
+             "data loss", "offline", "delay"],
+    "startup": ["startup", "slow", "cold start", "launch", "loading",
+                "performance", "lag"],
+    "pricing": ["pricing", "price", "subscription", "expensive",
+                "overpriced", "cost", "billing", "paywall"],
+    "dark_mode": ["dark mode", "dark theme", "theming", "theme",
+                  "night mode"],
+    "calendar": ["calendar", "schedule", "ics", "integration"],
+    "search": ["search", "find", "filter"],
+    "notifications": ["notification", "reminder"],
+    "mobile": ["mobile", "iphone", "android", "phone", "tablet"],
+    "onboarding": ["onboarding", "tutorial", "first-run"],
+    "sharing": ["sharing", "collaboration", "guest"],
+}
+
 DATA_DIR = Path(os.getenv("DATA_DIR", "./data"))
 
 # Aligned to the generated data window (batch week-end).
@@ -194,19 +212,22 @@ def _label_cluster(reviews: list[dict], prior_names: list[str]) -> dict:
 
 # ── scoring ───────────────────────────────────────────────────────────────
 
-def _merge_duplicate_themes(themes: list[Theme]) -> list[Theme]:
-    """If two clusters got the same name (case-insensitive), merge them.
-    Combined frequency, union of evidence, mean sentiment, max score.
-    Honest: we are not hiding clusters, we are acknowledging the LLM gave
-    them the same label because they are the same theme."""
-    by_name: dict[str, Theme] = {}
+def _merge_duplicate_themes(
+    themes: list[Theme],
+    prior_freqs: dict[str, dict[int, int]] | None = None,
+) -> list[Theme]:
+    """Merge clusters that share a theme_key. Two clusters with different
+    LLM names but the same keyword key ('sync') describe the same theme —
+    treat them as one. After merging, recompute trend from the merged
+    frequency, not from either subcluster."""
+    by_key: dict[str, Theme] = {}
     for t in themes:
-        key = t.name.strip().lower()
-        if key not in by_name:
-            by_name[key] = t
+        key = theme_key(t.name, t.summary) or t.name.strip().lower()
+        if key not in by_key:
+            by_key[key] = t
             continue
-        a = by_name[key]
-        old_freq = a.frequency           # capture BEFORE overwriting
+        a = by_key[key]
+        old_freq = a.frequency
         merged_freq = a.frequency + t.frequency
         merged_sent = (
             (a.sentiment_score * old_freq + t.sentiment_score * t.frequency)
@@ -226,8 +247,6 @@ def _merge_duplicate_themes(themes: list[Theme]) -> list[Theme]:
         a.sentiment_score = round(merged_sent, 3)
         a.evidence = merged_evidence
         a.score_breakdown = merged_bd
-        # Weighted average using the ORIGINAL divisor for `a`'s score,
-        # then clamp to the legitimate score range [0.0, 1.0].
         raw = (
             (a.score * old_freq + t.score * t.frequency)
             / max(1, merged_freq)
@@ -236,28 +255,35 @@ def _merge_duplicate_themes(themes: list[Theme]) -> list[Theme]:
         # Keep the more informative summary
         if len(t.summary) > len(a.summary):
             a.summary = t.summary
-        # Prefer the non-"new" trend if either had real trend info
-        if a.trend in (None, "new") and t.trend not in (None, "new"):
-            a.trend = t.trend
-    return list(by_name.values())
+        # If the first cluster's name is worse, adopt the second's
+        if len(t.name) > len(a.name) and "issues" not in a.name.lower():
+            a.name = t.name
 
+    merged = list(by_key.values())
 
-THEME_KEYWORDS: dict[str, list[str]] = {
-    "sync": ["sync", "synchroniz", "cross-device", "device", "conflict",
-             "data loss", "offline", "delay"],
-    "startup": ["startup", "slow", "cold start", "launch", "loading",
-                "performance", "lag"],
-    "pricing": ["pricing", "price", "subscription", "expensive",
-                "overpriced", "cost", "billing", "paywall"],
-    "dark_mode": ["dark mode", "dark theme", "theming", "theme",
-                  "night mode"],
-    "calendar": ["calendar", "schedule", "ics", "integration"],
-    "search": ["search", "find", "filter"],
-    "notifications": ["notification", "reminder"],
-    "mobile": ["mobile", "iphone", "android", "phone", "tablet"],
-    "onboarding": ["onboarding", "tutorial", "first-run"],
-    "sharing": ["sharing", "collaboration", "guest"],
-}
+    # ── Recompute trend from MERGED frequency against prior batches ──
+    if prior_freqs:
+        for t in merged:
+            key = theme_key(t.name, t.summary)
+            prior = (prior_freqs.get(f"key:{key}")
+                     or prior_freqs.get(t.name) or {})
+            if not prior:
+                lname = t.name.strip().lower()
+                for cand, hist in prior_freqs.items():
+                    if cand.strip().lower() == lname:
+                        prior = hist
+                        break
+            t.trend = _compute_trend(t.frequency, prior)
+            trend_score = {"up": 1.0, "stable": 0.5,
+                           "down": 0.2, "new": 0.6}.get(t.trend, 0.5)
+            t.score_breakdown["trend_component"] = round(trend_score, 3)
+            freq_norm = t.score_breakdown.get("frequency_norm", 0)
+            neg = t.score_breakdown.get("negativity", 0)
+            t.score = round(max(0.0, min(1.0,
+                0.55 * freq_norm + 0.25 * neg + 0.20 * trend_score)), 3)
+
+    return merged
+
 
 
 def theme_key(name: str, summary: str = "") -> str:
@@ -566,7 +592,7 @@ def run_pipeline(batch: int, memory_enabled: bool) -> AnalysisResult:
                 score=score,
                 score_breakdown=breakdown,
             ))
-        themes = _merge_duplicate_themes(themes)
+        themes = _merge_duplicate_themes(themes, prior_freqs)
         themes.sort(key=lambda t: t.score, reverse=True)
 
         ctx = (
