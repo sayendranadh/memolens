@@ -6,14 +6,15 @@ import CompareView from "./components/CompareView";
 import ProfileView from "./components/ProfileView";
 import MemoryPanel from "./components/MemoryPanel";
 import ContextInput from "./components/ContextInput";
+import UploadZone, { type UploadInfo } from "./components/UploadZone";
 
 type Tab = "analysis" | "compare" | "profile";
 
 export default function App() {
   const [tab, setTab] = useState<Tab>("analysis");
-  const [batch, setBatch] = useState<1 | 2 | 3>(1);
+  const [batch, setBatch] = useState<number | string>(1);
   const [memory, setMemory] = useState(true);
-  const [analyses, setAnalyses] = useState<Record<number, AnalysisResult>>({});
+  const [analyses, setAnalyses] = useState<Record<string, AnalysisResult>>({});
   const [compare, setCompare] = useState<CompareResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -22,6 +23,8 @@ export default function App() {
   const [profileLoading, setProfileLoading] = useState(false);
   const [refreshKey, setRefreshKey] = useState(0);
   const [demoStep, setDemoStep] = useState<string | null>(null);
+  const [uploads, setUploads] = useState<UploadInfo[]>([]);
+  const [activeUpload, setActiveUpload] = useState<string | null>(null);
 
   const current = analyses[batch];
 
@@ -42,7 +45,7 @@ export default function App() {
     refreshProfile();
   }, [refreshProfile]);
 
-  async function runAnalysis(b: 1 | 2 | 3, m: boolean) {
+  async function runAnalysis(b: number | string, m: boolean) {
     setLoading(true);
     setError(null);
     try {
@@ -66,7 +69,7 @@ export default function App() {
     }
   }
 
-  async function runCompare(b: 1 | 2 | 3) {
+  async function runCompare(b: number | string) {
     setLoading(true);
     setError(null);
     try {
@@ -182,14 +185,34 @@ export default function App() {
               {[1, 2, 3].map((b) => (
                 <button
                   key={b}
-                  onClick={() => setBatch(b as 1 | 2 | 3)}
+                  onClick={() => {
+                    setBatch(b);
+                    setActiveUpload(null);
+                  }}
                   className={`text-xs px-2.5 py-1 rounded border ${
-                    batch === b
+                    batch === b && !activeUpload
                       ? "bg-slate-900 text-white border-slate-900"
                       : "bg-white border-slate-300 text-slate-700"
                   }`}
                 >
                   {b}
+                </button>
+              ))}
+              {uploads.map((u) => (
+                <button
+                  key={u.upload_id}
+                  onClick={() => {
+                    setBatch(u.upload_id);
+                    setActiveUpload(u.upload_id);
+                  }}
+                  title={`${u.n_reviews} reviews`}
+                  className={`text-xs px-2.5 py-1 rounded border font-mono ${
+                    activeUpload === u.upload_id
+                      ? "bg-indigo-600 text-white border-indigo-600"
+                      : "bg-white border-slate-300 text-slate-700"
+                  }`}
+                >
+                  📎 {u.upload_id.slice(0, 6)}…
                 </button>
               ))}
               <span className="text-xs font-medium text-slate-500 ml-2">Memory</span>
@@ -211,6 +234,16 @@ export default function App() {
                 {loading ? "Analyzing…" : "Analyze"}
               </button>
             </div>
+          )}
+
+          {tab === "analysis" && (
+            <UploadZone
+              onUploaded={(info) => {
+                setUploads((prev) => [...prev, info]);
+                setBatch(info.upload_id);
+                setActiveUpload(info.upload_id);
+              }}
+            />
           )}
 
           {tab === "compare" && (

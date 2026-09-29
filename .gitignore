@@ -32,3 +32,4 @@ eval/results/
 # OS
 .DS_Store
 Thumbs.db
+*.tsbuildinfo

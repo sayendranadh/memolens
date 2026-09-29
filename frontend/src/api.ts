@@ -12,7 +12,17 @@ async function req<T>(path: string, init?: RequestInit): Promise<T> {
   return res.json() as Promise<T>;
 }
 export const api = {
-  analyze: (batch: number, memory: boolean) =>
+  upload: async (file: File) => {
+    const fd = new FormData();
+    fd.append("file", file);
+    const res = await fetch(`${BASE}/upload`, { method: "POST", body: fd });
+    if (!res.ok) {
+      const body = await res.text().catch(() => "");
+      throw new Error(`${res.status} ${res.statusText}${body ? ` — ${body}` : ""}`);
+    }
+    return res.json() as Promise<{ upload_id: string; n_reviews: number; preview: unknown[] }>;
+  },
+  analyze: (batch: number | string, memory: boolean) =>
     req<AnalysisResult>("/analyze", { method: "POST", body: JSON.stringify({ batch, memory }) }),
   feedback: (id: string, decision: "accepted"|"rejected"|"edited", reason: string, batch: number) =>
     req<{ok:boolean}>( "/feedback", { method: "POST", body: JSON.stringify({ recommendation_id: id, decision, reason, batch }) }),
@@ -21,6 +31,6 @@ export const api = {
   profile: () => req<{profile:string}>("/memory/profile"),
   timeline: (limit=100) => req<{items:MemoryItem[]}>("/memory/timeline?limit="+limit),
   recalls: (limit=30) => req<{recalls:RecallLog[]}>("/memory/recalls?limit="+limit),
-  compare: (batch: number) => req<CompareResult>("/compare", { method: "POST", body: JSON.stringify({ batch }) }),
+  compare: (batch: number | string) => req<CompareResult>("/compare", { method: "POST", body: JSON.stringify({ batch }) }),
   reset: () => req<{ok:boolean;message?:string}>("/reset", { method: "POST", headers: { "X-Confirm-Reset": "yes" } }),
 };
