@@ -56,7 +56,7 @@ UPLOAD_DATE = "2026-09-29"   # default date stamped onto uploads
 
 def _date_for(batch: int | str) -> str:
     if isinstance(batch, int):
-        return _date_for(batch)
+        return BATCH_DATES.get(batch, "")
     return UPLOAD_DATE
 
 
@@ -234,6 +234,7 @@ def _label_cluster(reviews: list[dict], prior_names: list[str]) -> dict:
 def _merge_duplicate_themes(
     themes: list[Theme],
     prior_freqs: dict[str, dict[int, int]] | None = None,
+    is_upload: bool = False,
 ) -> list[Theme]:
     """Merge clusters that share a theme_key. Two clusters with different
     LLM names but the same keyword key ('sync') describe the same theme —
@@ -281,6 +282,18 @@ def _merge_duplicate_themes(
     merged = list(by_key.values())
 
     # ── Recompute trend from MERGED frequency against prior batches ──
+    # Uploads (string batch IDs) are their own session — no ordinal
+    # comparison to demo batches, so trend = "new" for every theme.
+    if is_upload:
+        for t in merged:
+            t.trend = "new"
+            t.score_breakdown["trend_component"] = 0.6
+            freq_norm = t.score_breakdown.get("frequency_norm", 0)
+            neg = t.score_breakdown.get("negativity", 0)
+            t.score = round(max(0.0, min(1.0,
+                0.55 * freq_norm + 0.25 * neg + 0.20 * 0.6)), 3)
+        return merged
+
     if prior_freqs:
         for t in merged:
             key = theme_key(t.name, t.summary)
@@ -611,7 +624,7 @@ def run_pipeline(batch: int, memory_enabled: bool) -> AnalysisResult:
                 score=score,
                 score_breakdown=breakdown,
             ))
-        themes = _merge_duplicate_themes(themes, prior_freqs)
+        themes = _merge_duplicate_themes(themes, prior_freqs, is_upload=isinstance(batch, str))
         themes.sort(key=lambda t: t.score, reverse=True)
 
         ctx = (

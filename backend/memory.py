@@ -537,12 +537,17 @@ def recall_past_theme_names(batch: int) -> list[str]:
 
 # ── READ HOOK 2: scoring / trends ─────────────────────────────────────────
 
-def recall_prior_scores(batch: int) -> list[dict[str, Any]]:
+def recall_prior_scores(batch: int | str) -> list[dict[str, Any]]:
     """Before scoring this batch, recall prior theme scores so trends can
-    be computed against real history."""
+    be computed against real history. Accepts int or upload-ID string."""
+    if isinstance(batch, int):
+        q = (f"What were the theme scores, frequencies, and trends in "
+             f"batch {batch - 1} and earlier? Include sentiment and frequency.")
+    else:
+        q = ("What were the theme scores, frequencies, and trends in all "
+             "prior analyses? Include sentiment and frequency.")
     return _recall_raw(
-        f"What were the theme scores, frequencies, and trends in batch "
-        f"{batch - 1} and earlier? Include sentiment and frequency.",
+        q,
         purpose="scoring_trends",
         types=["world", "observation"],
         tags=["analysis"],
@@ -552,18 +557,32 @@ def recall_prior_scores(batch: int) -> list[dict[str, Any]]:
 
 # ── READ HOOK 2b: prior frequencies (numeric trend) ──────────────────────
 
-def get_prior_frequencies(current_batch: int) -> dict[str, dict[int, int]]:
+def get_prior_frequencies(
+    current_batch: int | str,
+) -> dict[str, dict[int, int]]:
     """Return {theme_name: {batch: frequency}} for all batches < current_batch.
-    Reads from analysis_stats metadata (survives Hindsight extraction)."""
+
+    `current_batch` may be an int (demo batch number) or a str (upload ID).
+    For uploads, there is no ordinal comparison, so all retained
+    frequencies are considered prior — an upload is its own session and
+    every prior analysis counts as history.
+
+    Reads from analysis_stats metadata (survives Hindsight extraction).
+    """
     if not MEMORY_ENABLED:
         return {}
+
+    is_upload = isinstance(current_batch, str)
+    batch_label = current_batch if is_upload else f"batch {current_batch}"
+
     results = _recall_raw(
-        f"Theme frequencies from batches before batch {current_batch}",
+        f"Theme frequencies from {batch_label} and earlier",
         purpose="prior_frequencies",
         types=["world"],
         tags=["analysis_stats"],
         max_results=20,
     )
+
     out: dict[str, dict[int, int]] = {}
     for r in results:
         meta = r.get("metadata") or {}
@@ -573,7 +592,10 @@ def get_prior_frequencies(current_batch: int) -> dict[str, dict[int, int]]:
             b = int(meta.get("batch", 0))
         except (ValueError, TypeError):
             continue
-        if b == 0 or b >= current_batch:
+        if b == 0:
+            continue
+        # Only filter by ordinal when current_batch is an int.
+        if not is_upload and b >= current_batch:
             continue
         try:
             freqs = json.loads(meta.get("freqs_json") or "{}")
