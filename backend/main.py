@@ -1,14 +1,19 @@
 """backend/main.py — FastAPI surface for MemoLens."""
 from __future__ import annotations
 
+import csv
+import io
+import json
 import os
+import uuid
 from typing import Any, Literal
 
-from fastapi import FastAPI, Header, HTTPException
+from fastapi import FastAPI, File, Header, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from . import memory
+from . import uploads
 from .pipeline import run_pipeline
 from .models import AnalysisResult
 
@@ -23,7 +28,7 @@ app.add_middleware(
 
 
 class AnalyzeReq(BaseModel):
-    batch: Literal[1, 2, 3]
+    batch: int | str
     memory: bool = True
 
 
@@ -41,7 +46,7 @@ class ContextReq(BaseModel):
 
 
 class CompareReq(BaseModel):
-    batch: Literal[1, 2, 3]
+    batch: int | str
 
 
 class OkResp(BaseModel):
@@ -71,6 +76,84 @@ def healthz() -> dict[str, Any]:
         "memory_enabled": memory.MEMORY_ENABLED,
     }
 
+
+
+
+class UploadResp(BaseModel):
+    upload_id: str
+    n_reviews: int
+    preview: list[dict]
+
+
+@app.post("/upload", response_model=UploadResp)
+async def upload_reviews(file: UploadFile = File(...)) -> UploadResp:
+    """Accept .json, .jsonl, or .csv. Normalize to pipeline schema:
+    {id, text, rating, date, ground_truth_theme}."""
+    raw = await file.read()
+    name = (file.filename or "").lower()
+
+    try:
+        if name.endswith(".json"):
+            parsed = json.loads(raw)
+            if not isinstance(parsed, list):
+                raise ValueError("JSON must be an array of reviews")
+            items = parsed
+        elif name.endswith(".jsonl"):
+            items = [
+                json.loads(line)
+                for line in raw.decode("utf-8", "replace").splitlines()
+                if line.strip()
+            ]
+        elif name.endswith(".csv"):
+            items = list(csv.DictReader(io.StringIO(raw.decode("utf-8", "replace"))))
+        else:
+            raise HTTPException(400, "Unsupported file type. Use .json, .jsonl, or .csv")
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(400, f"Parse error: {type(e).__name__}: {e}")
+
+    reviews: list[dict] = []
+    for i, r in enumerate(items):
+        if not isinstance(r, dict):
+            continue
+        text = (r.get("text") or r.get("review") or r.get("body")
+                or r.get("content") or "")
+        if not str(text).strip():
+            continue
+        try:
+            rating = int(r.get("rating") or r.get("stars") or r.get("score") or 3)
+        except (ValueError, TypeError):
+            rating = 3
+        rating = max(1, min(5, rating))
+        reviews.append({
+            "id": str(r.get("id") or f"up-{i:04d}"),
+            "text": str(text)[:2000],
+            "rating": rating,
+            "date": str(r.get("date") or "2026-09-29")[:10],
+            "ground_truth_theme": str(r.get("ground_truth_theme") or "unknown"),
+        })
+
+    if not reviews:
+        raise HTTPException(400, "No valid reviews found in file")
+
+    upload_id = uuid.uuid4().hex[:10]
+    uploads.put(upload_id, reviews)
+    return UploadResp(
+        upload_id=upload_id,
+        n_reviews=len(reviews),
+        preview=reviews[:3],
+    )
+
+
+@app.get("/uploads")
+def list_uploads() -> dict:
+    return {"uploads": uploads.list_ids()}
+
+
+@app.delete("/uploads/{upload_id}")
+def delete_upload(upload_id: str) -> dict:
+    return {"ok": uploads.delete(upload_id)}
 
 @app.post("/analyze", response_model=AnalysisResult)
 def analyze(req: AnalyzeReq) -> AnalysisResult:

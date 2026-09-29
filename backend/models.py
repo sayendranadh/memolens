@@ -32,7 +32,7 @@ class Recommendation(BaseModel):
 
 
 class Brief(BaseModel):
-    batch: int
+    batch: int | str
     date: str
     summary: str
     recommendations: list[Recommendation]
@@ -49,7 +49,7 @@ class RecalledMemory(BaseModel):
 
 
 class AnalysisResult(BaseModel):
-    batch: int
+    batch: int | str
     memory_enabled: bool
     date: str
     themes: list[Theme]

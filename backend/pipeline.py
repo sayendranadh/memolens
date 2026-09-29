@@ -22,6 +22,7 @@ from pathlib import Path
 import numpy as np
 
 from . import memory
+from . import uploads
 from .llm import call_json, RateLimited, MODEL_FAST, MODEL_REASON, BadLLMOutput
 from .embeddings import embed
 from .models import (
@@ -50,11 +51,29 @@ DATA_DIR = Path(os.getenv("DATA_DIR", "./data"))
 
 # Aligned to the generated data window (batch week-end).
 BATCH_DATES = {1: "2026-08-16", 2: "2026-09-06", 3: "2026-09-27"}
+UPLOAD_DATE = "2026-09-29"   # default date stamped onto uploads
+
+
+def _date_for(batch: int | str) -> str:
+    if isinstance(batch, int):
+        return _date_for(batch)
+    return UPLOAD_DATE
 
 
 # ── IO ────────────────────────────────────────────────────────────────────
 
-def _load_batch(batch: int) -> list[dict]:
+def _load_batch(batch: int | str) -> list[dict]:
+    """Accept either a demo batch number (1, 2, 3) or an upload ID
+    (a 10-char hex string from /upload)."""
+    if isinstance(batch, str):
+        reviews = uploads.get(batch)
+        if reviews is None:
+            raise FileNotFoundError(
+                f"Upload {batch!r} not found or expired. "
+                f"Uploads are in-memory and lost on restart."
+            )
+        return reviews
+
     p = DATA_DIR / f"batch_{batch}.json"
     if not p.exists():
         raise FileNotFoundError(
@@ -544,7 +563,7 @@ def _generate_brief(
     # Attach warning via a sentinel we pick up in run_pipeline
     brief = Brief(
         batch=batch,
-        date=BATCH_DATES.get(batch, ""),
+        date=_date_for(batch),
         summary=parsed.get("summary", ""),
         recommendations=recs[:5],
         generated_with_memory=memory_enabled,
@@ -605,7 +624,7 @@ def run_pipeline(batch: int, memory_enabled: bool) -> AnalysisResult:
         if memory.MEMORY_ENABLED:
             memory.retain_analysis(
                 batch=batch,
-                date=BATCH_DATES.get(batch, ""),
+                date=_date_for(batch),
                 themes=[t.model_dump() for t in themes],
                 brief=brief.model_dump(),
             )
@@ -632,9 +651,9 @@ def run_pipeline(batch: int, memory_enabled: bool) -> AnalysisResult:
                 ))
 
         return AnalysisResult(
-            batch=batch,
+            batch=batch,  # type: ignore[arg-type]  # int | str
             memory_enabled=memory.MEMORY_ENABLED,
-            date=BATCH_DATES.get(batch, ""),
+            date=_date_for(batch),
             themes=themes,
             brief=brief,
             recalled_memories=recalled,
